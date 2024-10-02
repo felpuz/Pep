@@ -1,0 +1,9 @@
+body{
+	font-family: arial, sans-serif;
+	line-height: 1.6;
+	background-color: #49a2c5;
+	margin: 900;
+	padding: 0;
+	display: flex;
+
+}
