@@ -1,0 +1,16 @@
+body{
+	display: flex;
+	flex direction: row;
+}
+
+.left{
+	flex: 1;
+	background-color: blue;
+	padding: 20px;
+}
+
+.right{
+	flex: 2;
+	background-color: green;
+	padding: 20px;
+}
