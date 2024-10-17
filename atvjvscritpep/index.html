@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="meuElemento">Ola mundo</h1>
+       <script>
+           var elemento = document.getElementById("meuElemento");
+           console.log(elemento);
+           </script> 
+           <h1 ClassName="minhaClasse">minha classe</h1>
+           <script>
+        var elementos = document.getElementsByClassName("minhaClasse");
+        console.log(elementos);
+        var elemento = document.getElementById("meuElemento");
+        elemento.innerText = "Novo texto via JavaScript";
+        var elemento = document.getElementById("meuElemento");
+        elemento.innerHTML = "<strong>Novo contedo em HTML</strong>";
+        var elemento = document.getElementById("meuElemento");
+        elemento.classList.add("novaClass");
+        </script>
+        
+    <h1 id="minhaImagem">imagem</h1>
+    <script>
+        var elemento = document.getElementById("minhaImagem");
+        console.log(elemento);
+        var imagem = document.getElementById("minhaImagem");
+        imagem.src = "imagem/aleatorio.jfif";
+        var imagem = document.getElementById("minhaImagem");
+        imagem.setAttribute("alt", "descriçao alternativa da imagem");
+    </script>
+
+    
+</body>
+</html>
