@@ -1,0 +1,139 @@
+body{
+	font-family: arial,sans-serif;/*fonte que esta sendo usada*/
+	line-height: 1.6;/**/
+	background-color: #FFFFF0;/*cor de fundo*/
+	margin: 0;
+	padding: 0;
+}
+.opa {
+	width: 800px;
+	margin: 20px auto;
+	background: #FFF0F5;
+	padding: 20px;
+	box-shadow: 0 0 80px #D8BFD8;
+}
+	.vr {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.opa img {
+		border-radius: 50%;
+		width: 150px;
+		height: 150px;
+		object-fit: cover;
+		border: 4px solid #BA55D3;
+	}
+	.vr h1{
+     margin: 10 px 0 5 px; /**/
+    font-size: 30px;
+	}
+	.vr .alone{
+		color: #708090 ;
+		font-size:18px ;
+		margin-bottom: 10px;
+	}
+	.water a{
+		text-decoration: none;
+		color: #DC143C;
+	}
+	.gta h2{
+		font-size: 20px;
+		color: ;
+		border-bottom: 2px solid #F5F5F5;
+	}
+	.low{
+		margin-bottom: 20px;
+	}
+	.gta h3{
+		font-size: 20px;
+		color: #DC143C ;
+		margin: 5px 0 ;
+	}
+	.for{
+
+        margin: 10px 0;
+
+	}
+	.two p {
+		margin: 10px 0;
+	}
+	header {
+		background-color: #DB7093 ;/*cor de fundo do menu*/
+		color: white;
+		padding: 30px;/*espaçamento*/
+		text-align: center;/*alinha ao centro*/
+
+	}
+	 
+
+	 header a {
+		color: white;/*cor das letras do menu*/
+		text-decoration: none;
+		margin: 0 15px;
+		font-weight: bold;
+		padding: 10px 15px;
+		transition: background-color 0.3s,color 0.3s;
+		border-radius: 5px;
+	}
+	header a:hover {
+		background'-color: white;
+		color:#4caf50;
+	}
+	.parallax{
+     height: 100vh;
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+	}
+
+	.mengao{
+		padding: 50px;
+		text-align: center;
+		background-color: #fff;
+		color: #333;
+	}
+	h1, h2 {
+		font-size: 36px;
+		margin-bottom: 20px;
+	}
+	p{
+		font-size: 18px;
+		line-height: 1.6;
+	}
+	.parallax1{
+		background-image: url('../imagem/IMG100.webp');
+	}
+
+	.parallax2{
+		background-image: url('../imagem/img101.webp');
+	}
+
+	.parallax3{
+		background-image: url('../imagem/img102.webp');
+	}
+	.parallax4{
+		background-image: url('../imagem/img103.webp');
+	}
+	.parallax5{
+		background-image: url('../imagem/img104.webp');
+	}
+	.parallax6{
+		background-image: url('../imagem/img105.webp');
+	}
+	.parallax7{
+		background-image: url('../imagem/img106.webp');
+	}
+	.parallax8{
+		background-image: url('../imagem/img108.webp');
+	}
+	.vvv{
+	 text-align: center;
+	}
+
+.sss{
+	text-align: center;
+}
+.index{
+	background-color: #6959CD;
+}
