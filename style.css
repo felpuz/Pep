@@ -1,9 +1,30 @@
 body{
-	font-family: arial, sans-serif;
-	line-height: 1.6;
-	background-color: #49a2c5;
-	margin: 900;
-	padding: 0;
-	display: flex;
+    background-color: #000000;
+    color: white;
+}
 
+.d1{
+    font-family: arima, sans-serif;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.imagemInicial{
+    height: 100%;
+    width: 300px;
+}
+
+a{
+    background-color: #b8b8b8;
+    color: #000000;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.spn{
+    font-weight: bold;
+    color: #ffffffa6;
 }
