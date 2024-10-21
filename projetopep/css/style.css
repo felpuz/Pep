@@ -1,0 +1,36 @@
+body{
+    background-color: #000000;
+    color: white;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.d1{
+    padding-bottom: 70px;
+}
+
+.imagemInicial{
+    height: 100%;
+    width: 300px;
+}
+
+.a1{
+    background-color: #b8b8b8;
+    color: #000000;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.spn{
+    font-weight: bold;
+    color: #ffffffa6;
+}
+
+span{
+    color: red;
+}
