@@ -1,22 +1,23 @@
 body{
     background-color: #000000;
-    color: white;
+    color: #fff;
     font-family: "Shadows Into Light", cursive;
     font-weight: 400;
     font-style: normal;
     text-align: center;
 }
 
-.d1{
-    padding-bottom: 70px;
+.corpo{
+    background-color: #000000;
+    color: #fff;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 150%;
 }
 
-.imagemInicial{
-    height: 100%;
-    width: 300px;
-}
-
-.a1{
+.a1 {
     background-color: #b8b8b8;
     color: #000000;
     padding: 10px 20px;
@@ -24,6 +25,30 @@ body{
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
+    text-decoration: none;
+}
+
+/*.d3{
+   background-color: #000000;
+    color: #fff;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;  
+}*/
+
+.d2{
+    font-family: arial, sans-serif;
+    text-align: left;
+}
+
+.imgicone{
+    height: 100%;
+    width: 300px;
+}
+
+.tit2{
+    margin-left: 8%;
 }
 
 .spn{
@@ -31,6 +56,107 @@ body{
     color: #ffffffa6;
 }
 
-span{
-    color: red;
+.tit1{
+    text-align: center;
 }
+
+.d1{
+    padding-bottom: 70px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.lateral {
+    width: 245px;
+    height: 100vh;
+    background-color: #333;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: -230px;
+    transition: left 0.3s ease;
+    z-index: 1000; /* Garante que o menu fique acima do conteúdo */
+}
+
+.lateral:hover {
+    left: 0;
+}
+
+.lateral h2 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.lateral ul {
+    list-style-type: none;
+}
+
+.lateral ul li {
+    margin-bottom: 15px;
+}
+
+.lateral ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    padding: 10px;
+    background-color: #b8b8b8;
+    border-radius: 15px;
+    transition: background-color 0.3s;
+}
+
+.lateral ul li a:hover {
+    background-color: #555;
+}
+
+
+.parallax-image {
+    height: 600px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: background-image 0.5s ease-in-out;
+    margin-bottom: 20px;
+}
+
+
+
+/*.parallax-image {
+    height: 100vh; /* A imagem ocupa a altura total da janela /
+    background-image: url('imagem/six.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: background-image 0.5s ease-in-out; /* Transição suave para troca de imagem */
+}
+
+/* Estilo do conteúdo abaixo da imagem de parallax /
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}*/
